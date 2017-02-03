@@ -10,6 +10,14 @@ import UIKit
 
 class RosterTableViewController: UITableViewController {
 
+    var spurs: [Spur]  {
+        let tony = Spur(name: "Tony Parker", number: 9)
+        let kawhi = Spur(name: "Kawhi Leonard", number: 2)
+        let manu = Spur(name: "Manu Ginobili", number: 20)
+        
+        return [tony, kawhi, manu]
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -17,19 +25,19 @@ class RosterTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        return spurs.count
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "spurCell", for: indexPath)
 
-        // Configure the cell...
+        let spur = spurs[indexPath.row]
+        cell.textLabel?.text = spur.name
+        cell.detailTextLabel?.text = "\(spur.number)"
 
         return cell
     }
