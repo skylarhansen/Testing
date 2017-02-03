@@ -14,6 +14,7 @@
 		8C2727DD1E44E1F500EFBFC0 /* TestingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2727DC1E44E1F500EFBFC0 /* TestingTests.swift */; };
 		8C2727E81E44E1F500EFBFC0 /* TestingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2727E71E44E1F500EFBFC0 /* TestingUITests.swift */; };
 		8C2727F61E44F1FB00EFBFC0 /* RosterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2727F51E44F1FB00EFBFC0 /* RosterTableViewController.swift */; };
+		8C2727F81E44F4B100EFBFC0 /* Spur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2727F71E44F4B100EFBFC0 /* Spur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8C2727E71E44E1F500EFBFC0 /* TestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingUITests.swift; sourceTree = "<group>"; };
 		8C2727E91E44E1F500EFBFC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C2727F51E44F1FB00EFBFC0 /* RosterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RosterTableViewController.swift; path = ../RosterTableViewController.swift; sourceTree = "<group>"; };
+		8C2727F71E44F4B100EFBFC0 /* Spur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Spur.swift; path = ../Spur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				8C2727C71E44E1F500EFBFC0 /* AppDelegate.swift */,
+				8C2727F71E44F4B100EFBFC0 /* Spur.swift */,
 				8C2727CB1E44E1F500EFBFC0 /* Main.storyboard */,
 				8C2727F51E44F1FB00EFBFC0 /* RosterTableViewController.swift */,
 				8C2727CE1E44E1F500EFBFC0 /* Assets.xcassets */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C2727F61E44F1FB00EFBFC0 /* RosterTableViewController.swift in Sources */,
+				8C2727F81E44F4B100EFBFC0 /* Spur.swift in Sources */,
 				8C2727C81E44E1F500EFBFC0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
